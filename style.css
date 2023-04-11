@@ -1,0 +1,19 @@
+:root{
+    --canvas-color: black;
+    --div-color: none;
+}
+
+html{
+    background-color: gray;
+}
+
+.main-div{
+    background-color: var(--div-color);
+    margin-top: 8%;
+}
+
+#mycanvas{
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
